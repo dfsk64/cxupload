@@ -8,14 +8,12 @@
         <input type="file" id="file2" multiple="multiple" />
         <script>
             $.cxupload({
-                fileId:'file2',
-                url:'http://127.0.0.1/Common/TFSUpload',
-                file:'fileserver',
+                fileId:'file2',//上传控件id
+                url:'http://127.0.0.1/upload',//上传远程服务器地址
+                file:'fileserver',//name
                 success:function(data){
-                    console.log(2222);
                 },
                 error:function(data){
-
                 }
             });
         </script>
