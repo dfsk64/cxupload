@@ -15,8 +15,8 @@ $.extend({
                 success: function (data) {
                     conf.success(data);
                 },
-                error: function (data) {
-                    conf.error(data);
+                error: function () {
+                    conf.error();
                 }
             });
         });
