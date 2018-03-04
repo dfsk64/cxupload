@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+        <script src="jquery-1.8.1.min.js"></script>
+        <script src="jquery.form.js"></script>
+        <script src="jq.cxupload.js"></script>
+    </head>
+    <body>
+        <input type="file" id="file2" name="file2" multiple="multiple" />
+        <script>
+            $.cxupload({
+                id: 'file2',
+                url:'http://127.0.0.1/Common/TFSUpload',
+                success:function(data){
+                    console.log(111222333);
+                    console.log(data);
+                }
+            })
+        </script>
+    </body>
+</html>

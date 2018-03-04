@@ -1,5 +1,5 @@
 var cxupload = function (settings) {
-    var input = document.getElementById(settings.fileId),
+    var input = document.getElementById(settings.id),
         fd = new FormData(),
         req;
     if (window.XMLHttpRequest) {
