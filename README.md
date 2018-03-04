@@ -4,3 +4,10 @@
 index.html是示例页面
 
 此控件基于h5的FormData，需要浏览器支持
+
+
+20180304
+
+增加独立版本，不需要依赖jquery
+
+index.html页面有示例
